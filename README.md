@@ -1,5 +1,4 @@
 # UrbanIntelligence
-# UrbanIntelligence
 
 UrbanIntelligence is a geospatial machine learning project that leverages satellite-derived NDVI time-series data to classify land cover types and model urban growth. It aims to assist urban planners, policymakers, and researchers by analyzing how cities have expanded over time and predicting potential future development zones.
 
@@ -68,3 +67,45 @@ Each row in the dataset includes:
 - Produce land cover classification maps.
 - Compute growth metrics per city.
 - Generate CSV predictions in the following format:
+---
+
+## Use Cases
+
+- Track urban development over years or decades.
+- Compare growth trends across cities or districts.
+- Support data-driven city planning and zoning decisions.
+- Integrate with GIS tools for real-time urban monitoring.
+
+---
+
+## Technologies
+
+- **Language**: Python 3.11
+- **Libraries**:
+  - `pandas`, `numpy` for data handling
+  - `scikit-learn` for machine learning (logistic regression)
+  - `matplotlib`, `seaborn`, `plotly` for visualization
+  - (Optional) `GeoPandas`, `Folium`, `Kepler.gl` for spatial mapping
+
+---
+
+## Future Work
+
+- Apply deep learning (LSTMs, CNNs) to improve long-term prediction accuracy.
+- Add real-time population or infrastructure data for richer analysis.
+- Build a web dashboard for interactive visualization.
+- Scale up to national or continental land use mapping.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code with proper attribution.
+
+---
+
+## Acknowledgements
+
+- Satellite NDVI Data: USGS Landsat & Copernicus Sentinel
+- Land Cover Labels: OpenStreetMap contributors
+- Hackathon: Summer Analytics 2025 – First Course Track (IIT Roorkee + GeeksForGeeks)
